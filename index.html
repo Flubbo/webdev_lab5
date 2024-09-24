@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Volunteer Form<h1>
+		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+			<fieldset>
+				<legend>My Info</legend>
+				<div><label>First Name: <input size="100" type="text" name="firstName"></label></div>
+				<div><label>Last Name: <input size="100" type="text" name="lastName"></label></div>
+				<div><label>Phone: <input size="100" type="text" name="phoneNum"></label></div>
+				<div><label>Email: <input size="100" type="text" name="email"></label></div>
+				<div>Gender: </div>
+				<div>
+					<label>Male <input type="radio" name="gender" value="male"></label>
+					<label>Female <input type="radio" name="gender" value="female"></label>
+				</div>
+				<div>Age: </div>
+				<select name="age">
+					<option>Under 18</option>
+					<option>Over 18</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>My Availablity</legend>
+				<h2>Days Available:</h2>
+				<div>
+					<div><label>Sunday <input type="checkbox" name="availability" value="sunday"></label></div>
+					<div><label>Monday <input type="checkbox" name="availability" value="monday"></label></div>
+					<div><label>Tuesday <input type="checkbox" name="availability" value="tuesday"></label></div>
+					<div><label>Wednesday <input type="checkbox" name="availability" value="wednesday"></label></div>
+					<div><label>Thursday <input type="checkbox" name="availability" value="thursday"></label></div>
+					<div><label>Friday <input type="checkbox" name="availability" value="friday"></label></div>
+					<div><label>Saturday <input type="checkbox" name="availability" value="saturday"></label></div>
+					<h2>Comments</h2>
+					<textarea name="comments"></textarea>
+				</div>
+			</fieldset>
+			<input type="hidden" name="submit" value="submit">
+			<input type="submit">
+		</form>
+	</body>
+</html>
